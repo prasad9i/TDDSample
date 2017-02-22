@@ -1,0 +1,36 @@
+[{
+	"Name": "Madhu",
+	"Address": "Hyderabad",
+	"Street1": "Gachibowli",
+	"Street2": "Anjaih Nagar",
+	"Zip": "500032",
+	"Phone": "+919030405170"
+}, {
+	"Name": "Arun",
+	"Address": "Toronto",
+	"Street1": "Meadowvale",
+	"Street2": "westbound",
+	"Zip": "M4B 1B3",
+	"Phone": "+16479369592"
+}, {
+	"Name": "krupal",
+	"Address": "Chicago",
+	"Street1": "Randolph",
+	"Street2": "Rogers Park",
+	"Zip": "60604",
+	"Phone": "+15622403733"
+}, {
+	"Name": "saleem",
+	"Address": "Hyderabad",
+	"Street1": "Gachibowli",
+	"Street2": "Anjaih Nagar",
+	"Zip": "500032",
+	"Phone": "+918919514023"
+}, {
+	"Name": "Tanveer",
+	"Address": "Hyderabad",
+	"Street1": "Gachibowli",
+	"Street2": "Anjaih Nagar",
+	"Zip": "500032",
+	"Phone": "+918328515364"
+}]

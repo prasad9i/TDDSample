@@ -1,0 +1,24 @@
+<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">
+	<edmx:DataServices m:DataServiceVersion="1.0" m:MaxDataServiceVersion="3.0"
+		xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata">
+		<Schema Namespace="NorthwindModel" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+			<EntityType Name="data">
+				<Key>
+					<PropertyRef Name="Name"/>
+				</Key>
+				<Property Name="Name" Type="Edm.String" Nullable="false" MaxLength="50" FixedLength="false"/>
+				<Property Name="Address" Type="Edm.String" Nullable="false" MaxLength="50" FixedLength="false"/>
+				<Property Name="Street1" Type="Edm.String" MaxLength="Max" FixedLength="false" Unicode="true"/>
+				<Property Name="Street2" Type="Edm.String" Nullable="false" MaxLength="15" FixedLength="false"/>
+				<Property Name="Zip" Type="Edm.String" MaxLength="Max" FixedLength="false" Unicode="true"/>
+				<Property Name="Phone" Type="Edm.String" Nullable="false" MaxLength="15" FixedLength="false"/>
+			</EntityType>
+		</Schema>
+		<Schema Namespace="ODataWebV2.Northwind.Model" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+			<EntityContainer Name="NorthwindEntities" m:IsDefaultEntityContainer="true" p6:LazyLoadingEnabled="true"
+				xmlns:p6="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+				<EntitySet Name="Data" EntityType="NorthwindModel.data"/>
+			</EntityContainer>
+		</Schema>
+	</edmx:DataServices>
+</edmx:Edmx>

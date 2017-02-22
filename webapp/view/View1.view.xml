@@ -1,0 +1,65 @@
+<mvc:View controllerName="list.controller.View1" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+	xmlns="sap.m" xmlns:f="sap.ui.layout.form">
+	<App>
+		<pages>
+			<Page title="User Registration">
+				<content>
+					<f:SimpleForm id="idSimpleform" editable="true">
+						<f:content>
+							<Label text="Name"/>
+							<Input width="30%" id="idName" value="{Form>/Name}" valueState="{ path: 'Form>/Name', formatter: '.formatter.Name' }"/>
+							<Label text="Address"/>
+							<Input width="30%" id="idAddress" value="{Form>/Address}" valueState="{ path: 'Form>/Address', formatter: '.formatter.Address' }"/>
+							<Label text="Street 1"/>
+							<Input width="30%" id="idStreet1" value="{Form>/Street1}" valueState="{ path: 'Form>/Street1', formatter: '.formatter.Street1' }"/>
+							<Label text="Street 2"/>
+							<Input width="30%" id="idStreet2" value="{Form>/Street2}"/>
+							<Label text="Zip"/>
+							<Input width="30%" id="idZip" value="{Form>/Zip}" valueState="{ path: 'Form>/Zip', formatter: '.formatter.Zip' }"/>
+							<Label text="Phone"/>
+							<Input width="30%" id="idPhone" value="{Form>/Phone}" valueState="{ path: 'Form>/Phone', formatter: '.formatter.Phone' }"/>
+							<Label></Label>
+							<Button text="Submit" press="onSubmit" type="Emphasized" width="20%"/>
+						</f:content>
+					</f:SimpleForm>
+					<Panel>
+						<Table id="table" inset="false" items="{path : 'data>/Data'}">
+							<columns>
+								<Column>
+									<Text text="Name"/>
+								</Column>
+								<Column>
+									<Text text="Address"/>
+								</Column>
+								<Column>
+									<Text text="Street1"/>
+								</Column>
+								<Column>
+									<Text text="Street2"/>
+								</Column>
+								<Column>
+									<Text text="Zip"/>
+								</Column>
+								<Column>
+									<Text text="Phone"/>
+								</Column>
+							</columns>
+							<items>
+								<ColumnListItem>
+									<cells>
+										<Text text="{data>Name}"/>
+										<Text text="{data>Address}"/>
+										<Text text="{data>Street1}"/>
+										<Text text="{data>Street2}"/>
+										<Text text="{data>Zip}"/>
+										<Text text="{data>Phone}"/>
+									</cells>
+								</ColumnListItem>
+							</items>
+						</Table>
+					</Panel>
+					</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

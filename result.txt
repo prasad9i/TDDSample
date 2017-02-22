@@ -1,0 +1,111 @@
+2017-01-13 14:52:20 Device API logging initialized - DEVICE
+2017-01-13 14:52:20.183736 registerResourcePath ('', 'https://sapui5.netweaver.ondemand.com/resources/') -  sap.ui.ModuleSystem
+2017-01-13 14:52:20.183905 registerResourcePath ('list', '../../') -  sap.ui.ModuleSystem
+2017-01-13 14:52:20.183956 registerResourcePath ('test/unit', './') -  sap.ui.ModuleSystem
+2017-01-13 14:52:20.183976 URL prefixes set to: -  sap.ui.ModuleSystem
+2017-01-13 14:52:20.184000   (default) : https://sapui5.netweaver.ondemand.com/resources/ -  sap.ui.ModuleSystem
+2017-01-13 14:52:20.184031   'list' : ../../ -  sap.ui.ModuleSystem
+2017-01-13 14:52:20.184045   'test/unit' : ./ -  sap.ui.ModuleSystem
+failed to load 'sap/ui/core/library-preload.js' from https://sapui5.netweaver.ondemand.com/resources/sap/ui/core/library-preload.js: 0 - error
+Caused by: 
+
+  https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174 in m1
+2017-01-13 14:52:20.218936 failed to load 'sap/ui/core/library-preload' (failed to load 'sap/ui/core/library-preload.js' from https://sapui5.netweaver.ondemand.com/resources/sap/ui/core/library-preload.js: 0 - error) -  
+
+  https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:160 in O
+2017-01-13 14:52:20.219499 failed to load 'https://sapui5.netweaver.ondemand.com/resources/sap/ui/core/library-preload.json': error -  
+
+  https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:160 in O
+failed to load 'sap/ui/core/library.js' from https://sapui5.netweaver.ondemand.com/resources/sap/ui/core/library.js: 0 - error
+Caused by: 
+
+  https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174 in m1
+Error: failed to load 'sap/ui/core/library.js' from https://sapui5.netweaver.ondemand.com/resources/sap/ui/core/library.js: 0 - error
+
+  https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174 in r1
+  https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174 in require
+  https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:884 in loadLibrary
+  https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:854
+  https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:115 in each
+  https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:854 in _boot
+  https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:841
+  https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:172 in l
+  https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:172 in finishTask
+  https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:841 in boot
+  https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:457
+NETWORK_ERR: XMLHttpRequest Exception 101: A network error occurred in synchronous requests.
+
+  https://sapui5.netweaver.ondemand.com/resources/sap/ui/qunit/qunit-junit.js:6 in send
+  https://sapui5.netweaver.ondemand.com/resources/sap/ui/qunit/qunit-junit.js:6
+failed to load 'sap/ui/model/json/JSONModel.js' from https://sapui5.netweaver.ondemand.com/resources/sap/ui/model/json/JSONModel.js: 0 - error
+Caused by: 
+
+  https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174 in m1
+failed to load 'list/model/models.js' from ../../model/models.js: Error: failed to load 'sap/ui/model/json/JSONModel.js' from https://sapui5.netweaver.ondemand.com/resources/sap/ui/model/json/JSONModel.js: 0 - error(line 174)
+Caused by: r1@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:7665
+t1@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:9460
+define@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:11797
+eval code
+eval@[native code]
+evalModuleStr@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:7974
+s1@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:8771
+r1@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:7490
+t1@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:9460
+define@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:11797
+eval code
+eval@[native code]
+evalModuleStr@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:7974
+s1@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:8771
+r1@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:7490
+t1@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:9460
+define@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:11797
+eval code
+eval@[native code]
+evalModuleStr@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:7974
+s1@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:8771
+r1@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:7490
+t1@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:9460
+require@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:12581
+global code@file:///Users/andyprier/Git/TDDSample/webapp/test/unit/unitTests.qunit.html:37:18
+
+  https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174 in m1
+failed to load 'test/unit/model/models.js' from ./model/models.js: Error: failed to load 'list/model/models.js' from ../../model/models.js: Error: failed to load 'sap/ui/model/json/JSONModel.js' from https://sapui5.netweaver.ondemand.com/resources/sap/ui/model/json/JSONModel.js: 0 - error(line 174)(line 174)
+Caused by: r1@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:7665
+t1@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:9460
+define@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:11797
+eval code
+eval@[native code]
+evalModuleStr@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:7974
+s1@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:8771
+r1@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:7490
+t1@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:9460
+define@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:11797
+eval code
+eval@[native code]
+evalModuleStr@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:7974
+s1@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:8771
+r1@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:7490
+t1@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:9460
+require@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:12581
+global code@file:///Users/andyprier/Git/TDDSample/webapp/test/unit/unitTests.qunit.html:37:18
+
+  https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174 in m1
+failed to load 'test/unit/allTests.js' from ./allTests.js: Error: failed to load 'test/unit/model/models.js' from ./model/models.js: Error: failed to load 'list/model/models.js' from ../../model/models.js: Error: failed to load 'sap/ui/model/json/JSONModel.js' from https://sapui5.netweaver.ondemand.com/resources/sap/ui/model/json/JSONModel.js: 0 - error(line 174)(line 174)(line 174)
+Caused by: r1@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:7665
+t1@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:9460
+define@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:11797
+eval code
+eval@[native code]
+evalModuleStr@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:7974
+s1@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:8771
+r1@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:7490
+t1@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:9460
+require@https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174:12581
+global code@file:///Users/andyprier/Git/TDDSample/webapp/test/unit/unitTests.qunit.html:37:18
+
+  https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174 in m1
+Error: failed to load 'test/unit/allTests.js' from ./allTests.js: Error: failed to load 'test/unit/model/models.js' from ./model/models.js: Error: failed to load 'list/model/models.js' from ../../model/models.js: Error: failed to load 'sap/ui/model/json/JSONModel.js' from https://sapui5.netweaver.ondemand.com/resources/sap/ui/model/json/JSONModel.js: 0 - error(line 174)(line 174)(line 174)
+
+  https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174 in r1
+  https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174 in t1
+  https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js:174 in require
