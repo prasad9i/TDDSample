@@ -27,7 +27,7 @@
 	        <executable>C:/work/jenkins/phantomjs-2.1.1-windows/bin/phantomjs</executable>
             <arguments>
                 <argument>C:/work/jenkins/run-qunit.js</argument>
-                <argument>http://localhost:8090/TDDSample/webapp/test/unit/unitTests.qunit.html</argument>
+                <argument>http://localhost:8090/TDD/webapp/test/unit/unitTests.qunit.html</argument>
 		    </arguments>
         </configuration>
 		</plugin>
