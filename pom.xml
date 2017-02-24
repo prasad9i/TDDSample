@@ -19,11 +19,22 @@
 				<id>PhantomJS Unit Testing</id>
 				<phase>test</phase>
 				<goals>
+					<goal>copyresources</goal>
 					<goal>exec</goal>
 				</goals>
 			</execution>
 		</executions>
         <configuration>
+			 <outputDirectory>C:/work/Tomcat7.0/webapps</outputDirectory>
+             <encoding>UTF-8</encoding>
+             <resources>
+			 <resource>
+				<directory>TDD</directory>
+				<includes>
+					<include>**/*.*</include>
+				</includes>
+			 </resource>
+            </resources>
             <executable>C:/work/jenkins/phantomjs-2.1.1-windows/bin/phantomjs</executable>
             <arguments>
                 <argument>C:/work/jenkins/run-qunit.js</argument>
