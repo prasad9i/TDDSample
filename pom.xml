@@ -24,17 +24,7 @@
 			</execution>
 		</executions>
         <configuration>
-			 <outputDirectory>C:/work/Tomcat7.0/webapps</outputDirectory>
-             <encoding>UTF-8</encoding>
-             <resources>
-			 <resource>
-				<directory>TDD</directory>
-				<includes>
-					<include>**/*.*</include>
-				</includes>
-			 </resource>
-            </resources>
-            <executable>C:/work/jenkins/phantomjs-2.1.1-windows/bin/phantomjs</executable>
+	        <executable>C:/work/jenkins/phantomjs-2.1.1-windows/bin/phantomjs</executable>
             <arguments>
                 <argument>C:/work/jenkins/run-qunit.js</argument>
                 <argument>http://localhost:8090/TDDSample/webapp/test/unit/unitTests.qunit.html</argument>
